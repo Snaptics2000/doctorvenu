@@ -74,7 +74,7 @@ const Experience = () => {
               15+ Years Of Experience
             </h1>
             <h1 className="font-bold pt-2 text-2xl">
-              We're Always Ensure Medical Treatment
+              We are Always Ensure Medical Treatment
             </h1>
             <p className="pt-4 text-sm text-gray-500">If you are going to use a passage of Ipsum, you need to sure there isn't anything embarrassing hidden.</p>
             <div className="ml-2 mt-2 ">
