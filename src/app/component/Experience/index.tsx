@@ -30,7 +30,7 @@ const Doctordetails = [
    
   },
   {
-    id: 1,
+    id: 3,
     imageUrl: Orthoscopies,
     title: "3000+ Trauma Cases",
    
