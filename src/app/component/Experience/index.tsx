@@ -67,7 +67,7 @@ const Experience = () => {
         </div>
         <div className="md:mt-28 sm:ml-2 sm:mr-2 top-0 pb-4 md:relative md:z-0 right-20 border shadow-lg bg-gray-100 rounded-lg">
           <div className="pl-6 pt-2">
-            <h1 className="text-blue-500 font-bold text-2xl">
+            <h1 className="text-blue-500 font-bold text-2xl mt-12">
               15+ Years Of Experience
             </h1>
             <h1 className="font-bold pt-2 text-2xl">
