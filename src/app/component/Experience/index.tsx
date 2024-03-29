@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import experience from "../../Images/experience.png";
@@ -14,26 +14,23 @@ import {
   HeartPulse,
   LucideHospital,
 } from "lucide-react";
-import { motion,} from "framer-motion";
+import { motion } from "framer-motion";
 
 const Doctordetails = [
   {
     id: 1,
     imageUrl: Orthoscopies,
     title: "1000+ Orthoscopies",
-   
   },
   {
     id: 2,
     imageUrl: Orthoscopies,
     title: "1000+ Surgeries",
-   
   },
   {
     id: 3,
     imageUrl: Orthoscopies,
     title: "3000+ Trauma Cases",
-   
   },
 ];
 
@@ -55,7 +52,7 @@ const WorkingItems = [
   {
     id: 3,
     icon: HeartPulse,
-    title: "Get Care & Relief",
+    title: "Get Care &amp; Relief",
     description:
       "If you are going to use a passage of Ipsum, you need to anything for hidden.",
   },
@@ -229,60 +226,59 @@ const Experience = () => {
       </h1>
       <div className="mt-12 flex flex-wrap justify-center">
         <motion.div
-        whileHover={{ scale: 1.2, rotate: 0 }}
-        whileTap={{
-        scale: 0.8,
-        rotate: 0,
-        borderRadius: "100%"
-      }}
-        
-        
-        className="ml-4 mb-6 w-72 flex justify-center items-center h-32 hover:bg-blue-400  shadow-md border rounded-lg">
+          whileHover={{ scale: 1.2, rotate: 0 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: 0,
+            borderRadius: "100%"
+          }}
+          className="ml-4 mb-6 w-72 flex justify-center items-center h-32 hover:bg-blue-400  shadow-md border rounded-lg"
+        >
           <div className="flex-col justify-center mb-6 mt-6 ml-6">
-          <FileHeartIcon className="ml-20"/>
-          <p className="mt-2 font-semibold text-2xl">State of Art Facility</p>
+            <FileHeartIcon className="ml-20" />
+            <p className="mt-2 font-semibold text-2xl">State of Art Facility</p>
           </div>
         </motion.div>
-        <motion.div 
-        whileHover={{ scale: 1.2, rotate: 0 }}
-        whileTap={{
-        scale: 0.8,
-        rotate: 0,
-        borderRadius: "100%"
-      }}
-        
-        className="ml-4 mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400  border rounded-lg">
+        <motion.div
+          whileHover={{ scale: 1.2, rotate: 0 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: 0,
+            borderRadius: "100%"
+          }}
+          className="ml-4 mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400  border rounded-lg"
+        >
           <div className="mt-6 ml-6 mb-6">
-          <ActivityIcon className="ml-20"/>
-          <p className="mt-2 font-semibold text-2xl">Personalized Care</p>
+            <ActivityIcon className="ml-20" />
+            <p className="mt-2 font-semibold text-2xl">Personalized Care</p>
           </div>
         </motion.div>
-        <motion.div 
-        whileHover={{ scale: 1.2, rotate: 0 }}
-        whileTap={{
-        scale: 0.8,
-        rotate: 0,
-        borderRadius: "100%"
-      }}
-        
-        className="ml-4  mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400 rounded border-lg">
+        <motion.div
+          whileHover={{ scale: 1.2, rotate: 0 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: 0,
+            borderRadius: "100%"
+          }}
+          className="ml-4  mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400 rounded border-lg"
+        >
           <div className="mt-6 mb-6">
-          <FileHeartIcon className="ml-24"/>
-          <p className="mt-2 font-semibold text-2xl">Innovative Treatments</p>
+            <FileHeartIcon className="ml-24" />
+            <p className="mt-2 font-semibold text-2xl">Innovative Treatments</p>
           </div>
         </motion.div>
-        <motion.div 
-        whileHover={{ scale: 1.2, rotate: 0 }}
-        whileTap={{
-        scale: 0.8,
-        rotate: 0,
-        borderRadius: "100%"
-      }}
-        
-        className="ml-4 mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400 border rounded-lg">
+        <motion.div
+          whileHover={{ scale: 1.2, rotate: 0 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: 0,
+            borderRadius: "100%"
+          }}
+          className="ml-4 mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400 border rounded-lg"
+        >
           <div className="mt-6 mb-6">
-          <FileHeartIcon className="ml-24"/>
-          <p className="mt-2 font-semibold text-2xl">Patient Empowerment</p>
+            <FileHeartIcon className="ml-24" />
+            <p className="mt-2 font-semibold text-2xl">Patient Empowerment</p>
           </div>
         </motion.div>
       </div>
