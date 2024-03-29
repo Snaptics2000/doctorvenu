@@ -76,11 +76,7 @@ const Experience = () => {
             <h1 className="font-bold pt-2 text-2xl">
               We're Always Ensure Medical Treatment
             </h1>
-            <p className="pt-4 text-sm text-gray-500">
-              If you are going to use a passage of Ipsum, you need to sure there
-              isn't anything embarrassing hidden.
-            </p>
-
+            <p className="pt-4 text-sm text-gray-500">If you are going to use a passage of Ipsum, you need to sure there isn't anything embarrassing hidden.</p>
             <div className="ml-2 mt-2 ">
               {Doctordetails.map((item) => (
                 <div
@@ -113,9 +109,7 @@ const Experience = () => {
         <div className="">
           <div className="flex flex-col justify-center items-center">
             <p className="text-[#2AA7FF]  text-sm">Working Process</p>
-            <h1 className="text-5xl text-[#1B3C74] font-semibold pt-2">
-              How We Work ?
-            </h1>
+            <h1 className="text-5xl text-[#1B3C74] font-semibold pt-2">How We Work ?</h1>
           </div>
           <div className="flex flex-wrap justify-center  mb-2">
             {WorkingItems.map((dataItems) => (
