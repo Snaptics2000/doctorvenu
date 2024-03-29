@@ -73,7 +73,7 @@ const Experience = () => {
             <h1 className="text-blue-500 font-bold text-2xl">
               15+ Years Of Experience
             </h1>
-            <h1 className="font-bold pt-2 text-4xl">
+            <h1 className="font-bold pt-2 text-2xl">
               We're Always Ensure Medical Treatment
             </h1>
             <p className="pt-4 text-sm text-gray-500">
