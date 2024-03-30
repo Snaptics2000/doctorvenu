@@ -224,7 +224,7 @@ const Experience = () => {
       <h1 className="text-center text-5xl text-[#1B3C74] pt-12">
         Introduce Clinic
       </h1>
-      <div className="mt-12 flex flex-wrap justify-center">
+      <div className="mt-12 flex flex-wrap justify-center gap-4">
         <motion.div
           whileHover={{ scale: 1.2, rotate: 0 }}
           whileTap={{
@@ -232,7 +232,7 @@ const Experience = () => {
             rotate: 0,
             borderRadius: "100%"
           }}
-          className="ml-4 mb-6 w-72 flex justify-center items-center h-32 hover:bg-blue-400  shadow-md border rounded-lg"
+          className="ml-4 mb-6 w-72 flex justify-center items-center h-52 hover:bg-blue-400  shadow-md border rounded-lg"
         >
           <div className="flex-col justify-center mb-6 mt-6 ml-6">
             <FileHeartIcon className="ml-20" />
@@ -246,7 +246,7 @@ const Experience = () => {
             rotate: 0,
             borderRadius: "100%"
           }}
-          className="ml-4 mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400  border rounded-lg"
+          className="ml-4 mb-6 w-72 flex justify-center items-center h-52 shadow-md hover:bg-blue-400  border rounded-lg"
         >
           <div className="mt-6 ml-6 mb-6">
             <ActivityIcon className="ml-20" />
@@ -260,7 +260,7 @@ const Experience = () => {
             rotate: 0,
             borderRadius: "100%"
           }}
-          className="ml-4  mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400 rounded border-lg"
+          className="ml-4  mb-6 w-72 flex justify-center items-center h-52 shadow-md hover:bg-blue-400 rounded border-lg"
         >
           <div className="mt-6 mb-6">
             <FileHeartIcon className="ml-24" />
@@ -274,7 +274,7 @@ const Experience = () => {
             rotate: 0,
             borderRadius: "100%"
           }}
-          className="ml-4 mb-6 w-72 flex justify-center items-center h-32 shadow-md hover:bg-blue-400 border rounded-lg"
+          className="ml-4 mb-6 w-72 flex justify-center items-center h-52 shadow-md hover:bg-blue-400 border rounded-lg"
         >
           <div className="mt-6 mb-6">
             <FileHeartIcon className="ml-24" />
