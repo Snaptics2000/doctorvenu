@@ -52,7 +52,7 @@ const WorkingItems = [
   {
     id: 3,
     icon: HeartPulse,
-    title: "Get Care &amp; Relief",
+    title: "Get Care & Relief",
     description:
       "If you are going to use a passage of Ipsum, you need to anything for hidden.",
   },
