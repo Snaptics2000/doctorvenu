@@ -65,7 +65,7 @@ const Services = () => {
       <h1 className="text-3xl text-center font-bold ml-10 mt-14">Services</h1>
       <div
       
-      className="flex gap-8 flex-wrap justify-center  mt-10">
+      className="flex xl:gap-x-40 flex-wrap justify-center  mt-10">
         {ServicesItems.map((item) => (
         <motion.div 
         
